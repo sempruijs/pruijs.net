@@ -11,7 +11,11 @@
 
 <main class="min-h-screen flex flex-col items-center justify-center text-center px-4">
 	<h1 class="text-5xl font-bold">Sem Pruijs</h1>
-	<p class="mt-4 text-lg text-gray-300">Welcome to my site.</p>
+	<img
+		src="/sem-pruijs.jpeg"
+		alt="Sem Pruijs"
+		class="mt-6 w-56 h-56 rounded-full object-cover border border-offblack/15 dark:border-offwhite/20"
+	/>
 
 	<nav class="mt-8 flex flex-wrap justify-center gap-3">
 		{#each links as link}
@@ -19,7 +23,7 @@
 				href={link.href}
 				target="_blank"
 				rel="noopener noreferrer"
-				class="px-4 py-2 rounded-full border border-white/20 text-sm text-gray-200 hover:bg-white/10 hover:text-white transition"
+				class="px-4 py-2 rounded-full border border-offblack/15 dark:border-offwhite/20 text-sm text-offblack/80 dark:text-offwhite/80 hover:bg-offblack/5 dark:hover:bg-offwhite/10 hover:text-offblack dark:hover:text-offwhite transition"
 			>
 				{link.label}
 			</a>

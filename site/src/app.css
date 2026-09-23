@@ -4,3 +4,13 @@
 	--color-offwhite: #f7f5f2;
 	--color-offblack: #161615;
 }
+
+body {
+	background-color: var(--color-offwhite);
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--color-offblack);
+	}
+}

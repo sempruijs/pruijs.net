@@ -1,8 +1,15 @@
 <script lang="ts">
 	import { siInstagram, siFacebook, siTiktok, siX, siGithub } from 'simple-icons';
 	import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+	import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 	const links = [
+		{
+			label: 'Email',
+			href: 'mailto:contact@pruijs.net',
+			viewBox: `0 0 ${faEnvelope.icon[0]} ${faEnvelope.icon[1]}`,
+			path: faEnvelope.icon[4] as string
+		},
 		{
 			label: 'Instagram',
 			href: 'https://instagram.com/sem_pruijs/',
@@ -26,7 +33,7 @@
 			label: 'LinkedIn',
 			href: 'https://www.linkedin.com/in/sem-pruijs-a153a62ab/',
 			viewBox: `0 0 ${faLinkedin.icon[0]} ${faLinkedin.icon[1]}`,
-			path: faLinkedin.icon[4]
+			path: faLinkedin.icon[4] as string
 		},
 		{
 			label: 'GitHub',

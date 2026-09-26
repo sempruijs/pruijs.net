@@ -57,7 +57,7 @@
 			<a
 				href={link.href}
 				aria-label={link.label}
-				class="flex items-center justify-center w-11 h-11 rounded-full border border-offblack/30 dark:border-offwhite/30 text-offblack dark:text-offwhite bg-offblack/5 dark:bg-offwhite/5 hover:bg-offblack/10 dark:hover:bg-offwhite/15 transition"
+				class="flex items-center justify-center w-11 h-11 rounded-full border border-offblack/30 dark:border-offwhite/30 text-offblack dark:text-offwhite bg-offblack/5 dark:bg-offwhite/5 hover:bg-offblack hover:text-offwhite dark:hover:bg-offwhite dark:hover:text-offblack transition"
 			>
 				<svg viewBox={link.viewBox} class="w-5 h-5 fill-current" aria-hidden="true">
 					<path d={link.path} />
